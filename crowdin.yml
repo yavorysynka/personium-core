@@ -1,0 +1,5 @@
+files:
+  - source: /src/main/resources/html/*.html
+    translation: /src/main/resources/html/%two_letters_code%/%original_file_name%
+  - source: /src/main/resources/**/*.properties
+    translation: /src/main/resources/**/%two_letters_code%/%original_file_name%
